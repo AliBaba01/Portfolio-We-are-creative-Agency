@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #868F9B !important ;
+    color: #868F9B !important;
     height: 100%;
 }
 
@@ -44,6 +44,7 @@ h4 {
 h5 {
     font-size: 16px;
 }
+
 h6 {
     font-size: 21px;
 }
@@ -57,17 +58,15 @@ a {
 }
 
 .bgimg {
-    background: 
-      linear-gradient(
-        rgba(39, 39, 39, 0.808), 
-        rgba(39, 39, 39, 0.808)
-      ),
-      url(../img/background1.jpg);
-      background-position: center;
+    background:
+        linear-gradient(rgba(39, 39, 39, 0.808),
+        rgba(39, 39, 39, 0.808)),
+        url(../img/background1.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-  }
+    height: auto;
+}
 
 a:hover,
 a:focus {
@@ -85,6 +84,7 @@ a:focus {
     color: #FFF;
     margin: 0 auto;
 }
+
 .white-text2 {
     color: #FFF;
     padding-right: 6rem;
@@ -129,6 +129,7 @@ a:focus {
 .outline-btn:hover {
     opacity: 0.8;
 }
+
 .row::after {
     content: '';
     display: block;
@@ -148,6 +149,7 @@ a:focus {
     background-color: #6195FF;
     margin-top: 20px;
 }
+
 .title:after {
     margin: 20px auto 0px;
 }
@@ -155,6 +157,7 @@ a:focus {
 .padding {
     padding-bottom: 3rem;
 }
+
 .row {
     text-align: center;
     box-sizing: border-box;
@@ -169,6 +172,7 @@ a:focus {
 img {
     max-width: 100%;
 }
+
 .align-center2 {
     text-align: center;
 }
@@ -193,22 +197,23 @@ img {
     border-radius: 50%;
     border: 2px solid #6195FF;
 }
+
 .pricing {
     font-size: 42px;
     padding-top: 19px;
 }
+
 .tinted-image {
-    background: 
-      linear-gradient(
-        rgba(75, 75, 75, 0.45), 
-        rgba(75, 75, 75, 0.45)
-      ),
-      url(../img/background3.jpg);
-      background-position: center;
+    background:
+        linear-gradient(rgba(75, 75, 75, 0.45),
+        rgba(75, 75, 75, 0.45)),
+        url(../img/background3.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
-  .testimonial{
+}
+
+.testimonial {
     width: 70px !important;
     height: 70px !important;
     border-radius: 50%;
@@ -225,26 +230,24 @@ span {
 }
 
 .tinted-image1 {
-    background: 
-      linear-gradient(
-        rgba(75, 75, 75, 0.45), 
-        rgba(75, 75, 75, 0.45)
-      ),
-      url(../img/background2.jpg);
-      background-position: center;
+    background:
+        linear-gradient(rgba(75, 75, 75, 0.45),
+        rgba(75, 75, 75, 0.45)),
+        url(../img/background2.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
-  
 
-  .team-img {
-      max-width: 80%;
-  }
 
-  .bgc {
-      background-color: rgba(211, 211, 211, 0.5);
-  }
+.team-img {
+    max-width: 80%;
+}
+
+.bgc {
+    background-color: rgba(211, 211, 211, 0.5);
+}
 
 .fa-user .fa-comment .fa-clock {
     width: 10px !important;
@@ -259,7 +262,7 @@ span {
 }
 
 .px14 {
-    font-size: 14px; 
+    font-size: 14px;
     padding: 0;
     margin: 0 auto;
     display: inline-block;
@@ -280,6 +283,7 @@ span {
     padding: 0px 10px;
     margin-bottom: 20px;
 }
+
 .input2 {
     height: 80px;
 }
@@ -309,14 +313,14 @@ span {
 }
 
 .footer-follow li a {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 3px;
-  background-color: #6195FF;
-  color:#FFF;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #6195FF;
+    color: #FFF;
 }
 
 .footer-copyright p {
@@ -330,26 +334,32 @@ span {
     color: white !important;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
     h1 {
-            font-size:36px;
-            padding-bottom: 20px;
-      }
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+
     .align-center {
         padding-top: 0px;
     }
+
     .padding {
         padding-bottom: 20px;
     }
+
     .white-text2 {
         padding: 0;
     }
-    .main-btn{
+
+    .main-btn {
         font-size: 14px;
     }
+
     .white-btn {
         font-size: 14px;
     }
+
     .fa {
         font-size: 36px;
     }
@@ -357,6 +367,7 @@ span {
     img {
         padding-bottom: 20px;
     }
+
     .fa2 {
         font-size: 14px;
     }
@@ -365,6 +376,8 @@ span {
         padding: 0;
     }
 
-    .fixed {
-        position: fixed;
+    .some-padding {
+        padding-bottom: 10px;
     }
+}
+
