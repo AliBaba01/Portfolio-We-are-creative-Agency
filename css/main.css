@@ -364,3 +364,7 @@ span {
     .round-fixing {
         padding: 0;
     }
+
+    .fixed {
+        position: fixed;
+    }
