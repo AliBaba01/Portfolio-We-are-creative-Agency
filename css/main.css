@@ -334,6 +334,12 @@ span {
     color: white !important;
 }
 
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%
+}
+
 @media only screen and (max-width: 576px) {
     h1 {
         font-size: 36px;
@@ -379,5 +385,10 @@ span {
     .some-padding {
         padding-bottom: 10px;
     }
-}
 
+    .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%
+    }
+}
